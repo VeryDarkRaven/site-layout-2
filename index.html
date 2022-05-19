@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Site layout 2</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+      <div class="header container">
+        <div>
+          <img src="image/icon/logo.png" alt="logo">
+        </div>
+  
+        <nav class="nav nav_display">
+          <a href="#" class="nav__active-link">Home</a>
+          <a href="#">Video</a>
+          <a href="#">Destinations</a>
+          <a href="#">Booking</a>
+          <a href="#" class="sign-in">Sign In</a>
+        </nav>
+  
+        <div class="header__burger"><span></span></div>
+      </div>
+
+      <div class="dropdown">
+        <div class="container">
+          <nav class="nav dropdown__nav">
+            <div class="dropdown__nav_link">
+              <a href="#" class="nav__active-link">Home</a>
+              <a href="#">Video</a>
+              <a href="#">Destinations</a>
+              <a href="#">Booking</a>
+            </div>
+
+            <div class="dropdown__nav_last-link">
+              <a href="#" class="sign-in" >Sign In</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="title-block">
+          <h1>Travel around the world</h1>
+          <p class="block__description title-block__description_margin-one">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+          <a href="#" class="button title-block__button">Sign Up Now</a>
+        </div>
+      </div>
+      <img src="image/section 1/1.png" alt="section 1 image" class="section__image section__image_position">
+    </section>
+
+    <section class="section section_margin-two">
+      <div class="container">
+        <div>
+          <div class="title-block title-block_right-position">
+            <h2>Amazing places to enjoy  your travel</h2>
+  
+            <div class="title-block__line_container">
+              <span class="title-block__line"></span>
+            </div>
+  
+            <p class="block__description title-block__description_margin-two">Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in.</p>
+            <a href="#" class="button title-block__button">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="container">
+        <div class="slider container_absolute">
+          <div class="slider__image_container slider__image_container_1">
+            <img src="image/section 2/1.png" alt="Maldives" class="slider__image" id="slider-image-1">
+
+            <p class="image__name">Kuramathi, maldives</p>
+            <p class="image__price">$780</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(1)" onclick="clickOnStar(1)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(2)" onclick="clickOnStar(2)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(3)" onclick="clickOnStar(3)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(4)" onclick="clickOnStar(4)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(5)" onclick="clickOnStar(5)">
+              </div>
+
+              <p>7 days tour</p>
+            </div>
+          </div>
+  
+          <div class="slider__image_container slider__image_container_2 slider__image_active">
+            <img src="image/section 2/2.png" alt="Kathmandu" class="slider__image" id="slider-image-2">
+
+            <p class="image__name">Kathmandu, Nepal</p>
+            <p class="image__price">$640</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(1)" onclick="clickOnStar(1)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(2)" onclick="clickOnStar(2)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(3)" onclick="clickOnStar(3)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(4)" onclick="clickOnStar(4)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(5)" onclick="clickOnStar(5)">
+              </div>
+
+              <p>7 days tour</p>
+            </div>
+          </div>
+  
+          <div class="slider__image_container slider__image_container_3">
+            <img src="image/section 2/3.png" alt="Raja ampat" class="slider__image" id="slider-image-3">
+
+            <p class="image__name">Raja Ampat, Indonesia</p>
+            <p class="image__price">$560</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(1)" onclick="clickOnStar(1)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(2)" onclick="clickOnStar(2)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(3)" onclick="clickOnStar(3)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(4)" onclick="clickOnStar(4)">
+                <img src="image/icon/star 3.png" alt="star" onmouseover="cursorOverStarColorSelect(5)" onclick="clickOnStar(5)">
+              </div>
+
+              <p>7 days tour</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="slider__arrow">
+          <div class="slider__left"><span></span></div>
+          <div class="slider__right"><span></span></div>
+        </div>
+      </div>
+    </section>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/section-2.js"></script>
+	</body>
+</html>
