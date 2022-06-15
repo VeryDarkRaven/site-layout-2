@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>Site layout 2</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+      <div class="header container">
+        <div>
+          <img src="image/icon/logo.png" alt="logo">
+        </div>
+  
+        <nav class="nav nav_display">
+          <a href="#" class="nav__active-link">Home</a>
+          <a href="#">Video</a>
+          <a href="#">Destinations</a>
+          <a href="#">Booking</a>
+          <a href="#" class="sign-in">Sign In</a>
+        </nav>
+  
+        <div class="header__burger"><span></span></div>
+      </div>
+
+      <div class="dropdown">
+        <div class="container">
+          <nav class="nav dropdown__nav">
+            <div class="dropdown__nav_link">
+              <a href="#" class="nav__active-link">Home</a>
+              <a href="#">Video</a>
+              <a href="#">Destinations</a>
+              <a href="#">Booking</a>
+            </div>
+
+            <div class="dropdown__nav_last-link">
+              <a href="#" class="sign-in" >Sign In</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="title-block">
+          <h1>Travel around the world</h1>
+          <p class="block__description title-block__description_margin-one">Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.</p>
+          <a href="#" class="button title-block__button">Sign Up Now</a>
+        </div>
+      </div>
+      <img src="image/section 1/1.png" alt="section 1 image" class="section__image section__image_position">
+    </section>
+
+    <section class="section section_margin-two">
+      <div class="container">
+        <div>
+          <div class="title-block title-block_right-position">
+            <h2>Amazing places to enjoy  your travel</h2>
+  
+            <div class="title-block__line_container">
+              <span class="title-block__line"></span>
+            </div>
+  
+            <p class="block__description title-block__description_margin-two">Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in.</p>
+            <a href="#" class="button title-block__button">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="container">
+        <div class="slider container_absolute">
+          <div class="slider__image_container">
+            <img src="image/section 2/2.png" alt="Kathmandu" class="slider__image" id="slider-image-2">
+
+            <p class="image__name">Kathmandu, Nepal</p>
+            <p class="image__price">$640</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+              </div>
+
+              <p>5 days tour</p>
+            </div>
+          </div>
+          
+  
+          <div class="slider__image_container">
+            <img src="image/section 2/3.png" alt="Raja ampat" class="slider__image" id="slider-image-3">
+
+            <p class="image__name">Raja Ampat, Indonesia</p>
+            <p class="image__price">$560</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+              </div>
+
+              <p>3 days tour</p>
+            </div>
+          </div>
+
+
+          <div class="slider__image_container">
+            <img src="image/section 2/1.png" alt="Maldives" class="slider__image" id="slider-image-1">
+
+            <p class="image__name">Kuramathi, maldives</p>
+            <p class="image__price">$780</p>
+
+            <div class="bottom_container">
+              <div class="bottom__star_container">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+                <img src="image/icon/star 3.png" alt="star">
+              </div>
+
+              <p>7 days tour</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="slider__arrow">
+          <div class="slider__left"><span></span></div>
+          <div class="slider__right"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container video__text_container">
+        <div class="center__text">
+          <div class="title-block"><h2>Featured videos</h2></div>
+          <div class="title-block__line_container">
+            <div class="title-block__line"></div>
+          </div>
+          <p class="block__description">Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at imperdiet justo euismod eu. Aliquam vel imperdet mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus, molestie nisi id, elementum sem, Sed vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.</p>
+        </div>
+      </div>
+
+      <div class="container video__player_container">
+        <div class="video__player item__image_1">
+          <div class="video__gradient">
+            <img src="image/icon/play.png" alt="play">
+
+            <div class="video__description">
+              <p class="video__name">When go to Maldives</p>
+              <p class="video__duration">03:55</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video__list">
+          <div class="list__item list__item_active">
+            <div class="item__image item__image_1"></div>
+            <div class="item__description">
+              <p class="item__name">When go to Maldives</p>
+              <p class="item__duration">03:55</p>
+            </div>
+          </div>
+
+          <div class="list__item">
+            <div class="item__image item__image_2"></div>
+            <div class="item__description">
+              <p class="item__name">Tanzania's deadly pink lakes</p>
+              <p class="item__duration">05:24</p>
+            </div>
+          </div>
+
+          <div class="list__item">
+            <div class="item__image item__image_3"></div>
+            <div class="item__description">
+              <p class="item__name">Top things to do in Kathmandu</p>
+              <p class="item__duration">06:12</p>
+            </div>
+          </div>
+
+          <div class="list__item">
+            <div class="item__image item__image_4"></div>
+            <div class="item__description">
+              <p class="item__name">Exploring China's creative capital</p>
+              <p class="item__duration">04:33</p>
+            </div>
+          </div>
+
+          <div class="list__item">
+            <div class="item__image item__image_5"></div>
+            <div class="item__description">
+              <p class="item__name">Wynwood walls</p>
+              <p class="item__duration">02:58</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_categories">
+      <div class="container center__text">
+        <div class="title-block">
+          <h2>Travel categories</h2>
+        </div>
+  
+        <div class="title-block__line_container">
+          <div class="title-block__line"></div>
+        </div>
+        
+        <p class="block__description">Maecenas et eros non quam ultricies interdum. Proin ac dolor vel neque ullamcorper blandit vitae et felis. Morbi ante urna, imperciet vel neque vitae, porta ullamcorper metus. Quisque bibendum venenatis eros sed commodo. Nullam ultrices tortor nen dam ullamcorper auctor. In urna tellus, auctor sit amet est ut, scelerisque volutpat diam.</p>
+      </div>
+
+      <div class="slider categories__slider">
+        <div class="slider__item slider__item_1">
+          <div class="slider__image_shadow">
+            <p>Beaches, coast and island</p>
+          </div>
+        </div>
+
+        <div class="slider__item slider__item_2">
+          <div class="slider__image_shadow">
+            <p>Art and culture</p>
+          </div>
+        </div>
+
+        <div class="slider__item slider__item_3">
+          <div class="slider__image_shadow">
+            <p>Wildlife and nature</p>
+          </div>
+        </div>
+
+        <div class="slider__item slider__item_4">
+          <div class="slider__image_shadow">
+            <p>Food</p>
+          </div>
+        </div>
+
+        <div class="slider__item slider__item_5">
+          <div class="slider__image_shadow">
+            <p>Backpacking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__arrow categories__arrow">
+        <div class="slider__left categories__left"><span></span></div>
+        <div class="slider__right categories__right"><span></span></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container center__text">
+        <div class="title-block">
+          <h2>Traveller's experiences</h2>
+        </div>
+  
+        <div class="title-block__line_container">
+          <div class="title-block__line"></div>
+        </div>
+        
+        <p class="block__description block__description_experiences">"Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at faucibus enim aliquam eu. Nullam quis pulvinar diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a nisi ut, dapibus eleifend quam."</p>
+      </div>
+
+      <div class="experiences__slider">
+        <div class="slider__item_container">
+          <div class="slider__item">
+            <img src="image/section 5/1.png" alt="experiences image">
+            <p class="experiences__name">Donquixote Law</p>
+            <p class="experiances__speciality">Treveller</p>
+          </div>
+
+          <div class="slider__item">
+            <img src="image/section 5/1.png" alt="experiences image">
+            <p class="experiences__name">Law Donquixote</p>
+            <p class="experiances__speciality">Treveller</p>
+          </div>
+
+          <div class="slider__item">
+            <img src="image/section 5/1.png" alt="experiences image">
+            <p class="experiences__name">No Donquixote Law</p>
+            <p class="experiances__speciality">No Treveller</p>
+          </div>
+
+          <div class="slider__item">
+            <img src="image/section 5/2.jpg" alt="Nikita">
+            <p class="experiences__name">Nikita Litvinkov</p>
+            <p class="experiances__speciality">Taster</p>
+          </div>
+        </div>
+
+        <div class="experiences__lines">
+          <div class="line line_active"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+        <div class="slider__arrow experiences__arrow">
+          <div class="slider__left experiences__left"><span></span></div>
+          <div class="slider__right experiences__right"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom"></section>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/section-2.js"></script>
+    <script src="scripts/section-3.js"></script>
+    <script src="scripts/section-4.js"></script>
+    <script src="scripts/section-5.js"></script>
+	</body>
+</html>
